@@ -1,0 +1,26 @@
+body{
+    main{
+        div{
+            div{
+                .encabezado1{
+                    font-size: 5.75rem;
+                    font-weight: 500;
+                }
+                .textEncabezado1{
+                    font-size: 1.25rem;
+                    font-weight: 400;
+                }
+            }
+        }
+        div.portatil{ //POR RELLENAR CON ANIMACIONES
+            background-color: red;
+        }
+        div.fondoNegro{
+            color: white;
+            background-image: url(../images/fondoNegro.png);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            height: 300px;
+        }
+    }
+}
