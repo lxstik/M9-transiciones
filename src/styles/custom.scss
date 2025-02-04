@@ -53,14 +53,50 @@ body{
             }
             h1{
                 font-size: 4.5rem;
+                margin-bottom: 48px;
             }
         }
-        div.portatilBlock{
-            div.row{
-                div.bottom15{
-                    margin-bottom: 1.5rem; //separación del texto por acabar
+        div.portatilBlock {
+            .block1{
+                padding-bottom: 25px;
+                .imgPortatil{
+                    img{
+                        width: 100%;
+                        border-radius: 30px;
+                    }
+                    
+                }
+                align-items: center;
+                div.bottom15 {
+                    padding: 44px 56px;
+                    h3{
+                        font-size: 2rem;
+                        margin-bottom: 1.5rem;
+                    }
+                    p {
+                        font-size: 1.25rem;
+                        letter-spacing: -0.0375rem;
+                        line-height: 1.5;
+                    }
                 }
             }
+
+            .block2{
+                padding-bottom: 25px;
+                .imgBlock21{
+                    img{
+                        width: 100%;
+                        border-radius: 30px;
+                    }
+                }
+                .imgBlock22{
+                    img{
+                        width: 100%;
+                        border-radius: 30px;
+                    }
+                }
+            }
+            
         }
     }
 }
