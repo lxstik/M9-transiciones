@@ -56,7 +56,7 @@ body{
                 margin-bottom: 48px;
             }
         }
-        div.portatilBlock {
+        .portatilBlock {
             .block1{
                 padding-bottom: 25px;
                 .imgPortatil{
@@ -80,7 +80,6 @@ body{
                     }
                 }
             }
-
             .block2{
                 .imgBlock21{
                     img{
@@ -142,7 +141,139 @@ body{
                 letter-spacing: -.045rem;
             }
             h1{
-
+                font-size: 4.5rem;
+                margin-bottom: 48px;
+            }
+        }
+        .portatilBlock2{
+            .block6{
+                padding-bottom: 25px;
+                .imgPortatil2{
+                    img{
+                        width: 100%;
+                        border-radius: 30px;
+                    }
+                    
+                }
+                align-items: center;
+                .bottom {
+                    padding: 44px 56px;
+                    h3{
+                        font-size: 2rem;
+                        margin-bottom: 1.5rem;
+                    }
+                    p {
+                        font-size: 1.25rem;
+                        letter-spacing: -0.0375rem;
+                        line-height: 1.5;
+                    }
+                }
+            }
+            .block7{
+                .imgBlock7{
+                    img{
+                        width: 100%;
+                        border-radius: 30px;
+                    }
+                    .text{
+                        padding: 44px 56px;
+                        h3{
+                            font-size: 2rem;
+                            letter-spacing: -.08rem;
+                            line-height: 1.1;
+                            margin-bottom: 1.5rem;
+                        }
+                        p {
+                            font-size: 1.25rem;
+                            letter-spacing: -0.0375rem;
+                            line-height: 1.4;
+                        }
+                    }
+                }
+            }
+        }
+        .fondoBlanco{
+            div{
+                .texto2{
+                    p{
+                        font-size: 1.5rem;
+                    }
+                    h1{
+                        font-size: 3.125rem;
+                        margin-bottom: 48px;
+                    }
+                }
+                .tripleColumnas{
+                    div{
+                        img{
+                            width: 100%;
+                            border-radius: 30px;
+                        }
+                        .title{
+                            font-size: 1.25rem;
+                            font-weight: 500;
+                        }
+                        p{
+                            font-size: 1rem;
+                            font-weight: 500;
+                        }
+                    }
+                }
+            }
+            padding: 48px 0px;
+        }
+        .carusel{
+            padding: 48px 0px;
+            p{
+                font-size: 1.5rem;
+            }
+            h1{
+                font-size: 3.125rem;
+            }
+        }
+        .vimeo{
+            div{
+                .izquierda{
+                    h1{
+                        font-size: 3.125rem;
+                    }
+                }
+                .derecha{
+                    div{
+                        align-items: center;
+                        div{
+                            img{
+                                width: 288px;
+                                height: 162px;
+                                border-radius: 30px;
+                            }
+                        }
+                        .textDescr{
+                            padding-left: 70px;
+                            .etiqueta{
+                                font-size: 1rem;
+                                background-color: rgb(223, 228, 234, 1);
+                                border-radius: 10px;
+                                padding: 12px 16px;
+                                margin-bottom: .75rem;
+                            }
+                            p{
+                                margin-top: .75rem;
+                                margin-bottom: -.75rem;
+                                font-size: 1.5rem;
+                            }
+                        }
+                    }
+                }
+            }
+            padding-bottom: 50px;
+        }
+    }
+    footer{
+        color: white;
+        ul{
+            li{
+                list-style-type: none;
             }
         }
     }
